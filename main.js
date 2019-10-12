@@ -26,7 +26,7 @@ function check() {
 
     var range;
 
-    if (correct < 1){
+    if (correct < 2){
         range = 2;
     }
     if (correct > 1 && correct < 4) {

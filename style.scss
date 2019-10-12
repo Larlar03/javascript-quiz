@@ -1,12 +1,12 @@
 body {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     margin: 0 auto;
     background: #0074ff;
     color: #fff;
 
     main {
-        width: 100%;
+        width: 85%;
         height: auto;
         margin: 0 auto;
         display: flex;
@@ -27,14 +27,18 @@ body {
             }
 
             #button {
-                margin: 40px 0 20px 0;
+                margin: 40px auto 20px auto;
                 background: #c9e2ff;
                 color:#005ecc;
             }
         }
         #after-submit {
+            width: 100%;
             visibility: hidden;
             margin: 0 auto 40px auto;
+            img {
+                width: 100%;
+            }
         }
     }
 }
